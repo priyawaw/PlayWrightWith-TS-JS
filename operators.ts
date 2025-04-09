@@ -107,7 +107,6 @@ c//onsole.log("Strict Equality", m === n)
 // 8. Strict Inequality (!==) - It checks if the values and data type are not same
 //console.log("Strict Inequality", m !== n)
 
-
 // 3. Greater than (>)
 console.log("Greater than", 10 > 5)
 // 4. Less than (<)
@@ -116,15 +115,65 @@ console.log("Less than", 10 < 5)
 console.log("Greater than or Equal To", 10 >= 10)
 // 6. Less Than or Equal To (<=)
 console.log("Less than or Equal To", 10 <= 18)
+console.log("***************************");
+
+// 3. Logical Operator  - Will try to compare the boolean expression (10>5)
+// AND (&&) 
+// OR (||)
+// NOT (!)
+
+// 1. And (&&)  - It will return true if both of the conditions are true else false
+
+// true && true - true
+// true && false - false
+// false && true - false
+// false && false - false
 
 
+console.log((10 > 5) && (10 > 6)) // true && true
+console.log((10 > 5) && (10 < 6)) // true && false
+console.log((10 < 5) && (10 > 6)) // false && true
+console.log((10 < 5) && (10 < 6)) // false && false
 
+console.log("*****************************************");
 
-let p  = 10
-//p = "TEN"
+// 2. OR (||) - It will return true if any of the conditions is true else false
 
-console.log(p);
+// true || true - true
+// true || false - true
+// false || true - true
+// false || false - false
 
+console.log((10 > 5) || (10 > 6)) // true || true
+console.log((10 > 5) || (10 < 6)) // true || false
+console.log((10 < 5) || (10 > 6)) // false || true
+console.log((10 < 5) || (10 < 6)) // false || false
 
+console.log("*****************************************");
 
+// 3. NOT (!) - It will return true if the condition is false else false
 
+console.log(!(10 > 5)) // !true
+console.log(!(10 < 5)) // !false
+
+console.log("*******************************");
+
+// 4. Assignment Operator (=)
+
+let x = 10;
+console.log(x);
+
+// +=, -=, *=, /=
+let y = 10
+y += 10 // x = x+10 // x = 10+10
+console.log(y);
+
+ //let y =23
+
+x -= 5 // x = x-5// x = 20-5
+console.log(x);
+
+x *= 2 // x = x*2 // x = 15*2
+ console.log(x);
+x /= 3 // x = x/3 // x = 30/3
+ console.log(x);
