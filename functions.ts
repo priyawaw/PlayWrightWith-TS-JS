@@ -5,6 +5,8 @@
 // 2. Anonymous Function (unnamed function)
 // 3. Arrow Function (=>) - used for small functions, one line functions, callback
 
+// 4. IIFE - Immediately invoked function expression
+// 5. Function Constructor
 
 // 1. Named Function (Functional Declaration)- A function which will be declared along with the name
 // Syntax:- TS
@@ -69,4 +71,70 @@ let addition  = function(a:number, b:number)  {
 
 console.log(addition(34, 46))
 
-// 3. Arrow function
+// 3. Arrow function - => - ES6 (ECMA SCRIPT 6 - 2015)
+// Syntax:- TS/JS
+/*
+
+let variable = (argument :datatype(optional)) : returnType(optional) => {...}
+
+*/
+
+let variable = (a,b) => a*b
+
+let result = variable(10000, 20000)
+console.log(result) // 30000
+
+let var1 = a => a**2
+
+console.log(var1(5)); // 25
+
+// 4. IIFE 
+// Syntax:- TS/JS
+/*
+(function(argument){
+    // code
+})
+()
+*/
+
+(function(){
+    console.log("IIFE");
+})
+()
+
+
+// 5. Function Constructor
+
+let fun = new Function('a', 'b', 'return a+b')
+console.log(fun("TS", "JS")) 
+
+
+function adds(a,b,c){
+    console.log(a+b+c)
+}
+
+adds(1,2,5)
+
+
+// Optional Parameter and default parameter
+
+function adds1(a,b,c="IIT"){
+    console.log(a+b);
+    console.log(c);
+}
+adds1(1,2) 
+
+function info(name : string, age? : number){
+    if(age != undefined){
+        console.log("Name is :", name ,"and age is : ", age)
+    }else{
+        console.log("Name is :", name)
+    }
+}
+
+info("Rahul", 40)
+info("John")
+
+
+
+
