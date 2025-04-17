@@ -48,14 +48,14 @@ console.log(5**3); // 5^3// 5*5*5
 
 // Pre-increment (++a) - Action will be performed after the value will be incremented
 
-let c  = 10
+let c1  = 10
 console.log(c) // 10 
 
 console.log("Pre-increment", ++c) // ++10 // 10+1
 
 // Post-increment (a++) - Action will be performed first and then the value will be incremented
 
-let d = 20
+let d1 = 20
 console.log(d) 
 console.log("Post-increment", d++) // 20++ // 20+1
 console.log(d) // 21
@@ -160,7 +160,7 @@ console.log("*******************************");
 
 // 4. Assignment Operator (=)
 
-let x = 10;
+let x1 = 10;
 console.log(x);
 
 // +=, -=, *=, /=
