@@ -15,15 +15,15 @@ console.log(sub)
 // Multiplication (*)
 
 let x = 63
-w = 23
+var w = 23
 var mul = x * w
 console.log(mul)
 
 // Division (/)
 
 const j= 89
-n = 6
-var div = j / n
+var n1 = 6
+var div = j / n1
 console.log(div)
 
 // Modulus (reminder) (%)
@@ -46,7 +46,7 @@ let t = 12
 console.log('post increment', t++)
 console.log(t)
 
-for (t01 = 0; t01<=10; t01++){
+for (let t01 = 0; t01<=10; t01++){
     console.log(t01)
 }
 
@@ -56,19 +56,19 @@ let t1 = 12
 console.log('pre increment', ++t1)
 console.log(t1)
 
-for (t01 = 0; t01<10; ++t01){
+for (let t01 = 0; t01<10; ++t01){
     console.log(t01)
 }
 
 // Post decrement (i--)
 
-for (s = 5; s-->0;){
+for (let s = 5; s-->0;){
     console.log(s)
 }
 
 // Pre decrement (--i)
 
-for (s = 15; --s >0;){
+for (let s = 15; --s >0;){
     console.log(s)
 }
 
@@ -86,8 +86,8 @@ else{
 //Not equal to (!=)
 
 f = 26
-g = 21
-if (f != g) {
+let g1 = 21
+if (f != g1) {
     console.log('f is not equal to g')
 }
 else{
@@ -118,9 +118,9 @@ else{
 
 // Stricly equal to (===)
 
-if (m === n){
-    m = 52
-n = 52
+   let m1 = 52
+   var n1 = 52
+   if ( m1 === n1){
 console.log('m & n are stricly equals to each other')
 }
 else{
@@ -128,10 +128,60 @@ console.log('m & n are not stricly equals to each other')}
 
 // Stricly not equal to (!==)
 
-if (m1 !== n1){
- var  m1 = 52
+
+ let  m01 = 52
 var n1 = 5
+if (m01 !== n1){
 console.log('m1 & n1 are stricly not equals to each other')
 }
 else{
 console.log('m1 & n1 are stricly equals to each other')}
+
+// AND (&&): Return True if both condition matches else false
+
+let a1 = (85 > 10)
+let b1 = (62 < 20)
+if (a1 && b1) {
+    console.log ('True')
+}
+else{
+    console.log('False')
+}
+
+// OR (||): Return True if any 1 condition matches else false
+
+let c1 = (85 > 10)
+let d1 = (62 < 20)
+if (c1 || d1) {
+    console.log ('True')
+}
+else{
+    console.log('False')
+}
+
+// NOT (!): Return True if any condition not matches else false when condition matches
+
+if ( ! (10 < 5)) {
+    console.log ('True')
+}
+else{
+    console.log('False')
+}
+
+// Assignment operator (=)
+
+let g = 10
+g += 20
+console.log(g)
+
+let g01 = 50
+g01 -= 10
+console.log(g01)
+
+let g02 = 50
+g02 *= 5
+console.log(g02)
+
+let g03 = 50
+g03 /= 5
+console.log(g03)
