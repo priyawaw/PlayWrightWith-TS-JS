@@ -18,7 +18,7 @@
 //functionName(parameter)
 
 // parameterised and returning function
-function add(num1, num2) { // num1, num2 - Argument
+function add01(num1, num2) { // num1, num2 - Argument
     return num1 + num2
 }
 
@@ -27,7 +27,7 @@ console.log(sum)
 
 
 // parameterised and non-returning function
-function add1(num1:number, num2:number) {
+function add11(num1:number, num2:number) {
     let sum = num1+num2
     console.log(sum)
 }

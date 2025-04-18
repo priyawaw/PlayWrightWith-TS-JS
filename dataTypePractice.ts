@@ -2,8 +2,8 @@
 
 var a : number = 25
 var b = 23
-let sum = a + b
-console.log(sum)
+let sum1 = a + b
+console.log(sum1)
 
 // string
 
