@@ -1,13 +1,13 @@
 // For loop
 
-for (i=0 ; i <= 10; i++){
+for (let i=0 ; i <= 10; i++){
     console.log(i)
 }
 
 // For of loop
 
 let array = [1,2,5,6, 'priya', true, 9,8,false, 'kaivalya']
-for ( i=0; i<array.length; i++){
+for (let i=0; i<array.length; i++){
     console.log(array[i])
 }
 
@@ -22,18 +22,18 @@ for (let key in object){
 
 // While loop
 
-let o= 0
-while(o <= 10){
-   // o = o + 2 //(even nos)
-    console.log(o)
-    o++
+let o1= 0
+while(o1 <= 10){
+   // o1 = o1 + 2 //(even nos)
+    console.log(o1)
+    o1++
 }
 
 // Do While loop
 
-let l = 5
+let ll = 5
 do{
-    console.log(l)
-    l--
+    console.log(ll)
+    ll--
 }
-while (l < 0)
+while (ll < 0)

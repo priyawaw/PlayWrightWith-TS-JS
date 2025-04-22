@@ -1,7 +1,7 @@
 // Addition (+)
 
 var z = 20
-y = 30
+let y = 30
 let sum = z + y
 console.log(sum)
 
@@ -22,21 +22,21 @@ console.log(mul)
 // Division (/)
 
 const j= 89
-var n1 = 6
-var div = j / n1
+let n11 = 6
+var div = j / n11
 console.log(div)
 
 // Modulus (reminder) (%)
 
-a = 11
-b = 2
+let a = 11
+let b = 2
 let c = a % b
 console.log(c)
 
 // Exponential (Roots) (**)
 
 let d = 32
-e = 2
+let e = 2
 let square = d ** e
 console.log(square)
 
@@ -85,7 +85,7 @@ else{
 
 //Not equal to (!=)
 
-f = 26
+let f = 26
 let g1 = 21
 if (f != g1) {
     console.log('f is not equal to g')
@@ -97,7 +97,7 @@ else{
 // Greater than (>) & Greater than equal to (>=)
 
 let u = 563
-m= 563
+let m= 563
 if (u >= m){
     console.log('u is greater than or equal to m')
 }
@@ -119,8 +119,8 @@ else{
 // Stricly equal to (===)
 
    let m1 = 52
-   var n1 = 52
-   if ( m1 === n1){
+   let n01 = 52
+   if ( m1 === n01){
 console.log('m & n are stricly equals to each other')
 }
 else{
@@ -130,7 +130,7 @@ console.log('m & n are not stricly equals to each other')}
 
 
  let  m01 = 52
-var n1 = 5
+let n1 = 5
 if (m01 !== n1){
 console.log('m1 & n1 are stricly not equals to each other')
 }

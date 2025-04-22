@@ -6,11 +6,11 @@ function add (num1, num2){
 let add1 = add (25,85)
 console.log(add1)
 
-function sub (n1 , n2) : void {
+function sub01 (n1 , n2) : void {
     let sub1 = n1 - n2
     console.log(sub1)
 }
-sub (56,2.5)
+sub01 (56,2.5)
 
 function compare (A,B) {
     if ( A === B){
@@ -28,9 +28,9 @@ compare(5,25)
 let multiply = function( m1 , m2 ){
     return (m1 * m2)
 }
-const mul = multiply (25 , 8)
+const mul01 = multiply (25 , 8)
 //console.log(multiply(23,5))
-console.log(mul)
+console.log(mul01)
 
 let greed = function() {
     return 'Hello, how are you'
@@ -39,7 +39,7 @@ let greeds = greed()
 console.log(greeds)
 
 
-var equalto = function(k1 , k2){
+let equalto = function(k1 , k2){
     if (k1 != k2){
         console.log("both nums are not equal to each other")
     }
