@@ -48,3 +48,42 @@ let equalto = function(k1 , k2){
     }
 }
 equalto(12, 12)
+
+// Arrow function => fat arrow
+
+let doubled = (dd,cc) => {
+    if (dd >= cc) {
+        console.log("dd is greater than cc")
+    }
+    else {
+        console.log('cc is greater than dd')
+    }
+
+}
+doubled (25,231)
+
+
+let var02 = (aa , bb) => aa * bb
+let mul02 = var02 (26 , 2)
+console.log(mul02)
+
+// Optional parameters and default parameters
+function mul05 (q1, q2, q3 = 2) {
+    console.log (q1 * q2 * q3)
+}
+mul05 (10, 26);
+
+// IIFE function
+
+(function () {
+    console.log ('IIFE')
+}
+)
+
+// Function constructor
+
+let fun11 = new Function('a', 'b', 'return a+b')
+console.log(fun11("TS", "JS")) 
+
+let total = new Function ( 'j1' , 'j2' , 'return j1 + j2')
+console.log (total (25 ,86))

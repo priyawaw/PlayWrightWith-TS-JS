@@ -105,8 +105,8 @@ console.log(var1(5)); // 25
 
 // 5. Function Constructor
 
-let fun = new Function('a', 'b', 'return a+b')
-console.log(fun("TS", "JS")) 
+let fun1 = new Function('a', 'b', 'return a+b')
+console.log(fun1("TS", "JS")) 
 
 
 function adds(a,b,c){
